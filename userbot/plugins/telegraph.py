@@ -84,7 +84,7 @@ async def _(event):
             await catevent.edit(
                 f"**link : **[telegraph](https://telegra.ph{media_urls[0]})\
                     \n**Time Taken : **`{ms} seconds.`",
-                link_preview=True,
+                link_preview=False,
             )
     elif input_str in ["text", "t"]:
         user_object = await event.client.get_entity(r_message.sender_id)
@@ -121,5 +121,5 @@ async def _(event):
         await catevent.edit(
             f"**link : ** [telegraph]({cat})\
                  \n**Time Taken : **`{ms} seconds.`",
-            link_preview=True,
+            link_preview=False,
         )

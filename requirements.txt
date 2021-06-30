@@ -24,6 +24,7 @@ heroku3
 html-telegraph-poster
 humanize
 IMDbPY
+ipdata
 jikanpy
 justwatch
 lottie

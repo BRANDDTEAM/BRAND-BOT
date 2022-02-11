@@ -25,8 +25,8 @@ plugin_category = "utils"
 
 
 @catub.cat_cmd(
-    pattern="alive$",
-    command=("alive", plugin_category),
+    pattern="فحص$",
+    command=("فحص", plugin_category),
     info={
         "header": "To check bot's alive status",
         "options": "To show media in this cmd you need to set ALIVE_PIC with media link, get this by replying the media by .tgm",
@@ -89,8 +89,8 @@ temp = """{ALIVE_TEXT}
 
 
 @catub.cat_cmd(
-    pattern="ialive$",
-    command=("ialive", plugin_category),
+    pattern="فحص$",
+    command=("فحص", plugin_category),
     info={
         "header": "To check bot's alive status via inline mode",
         "options": "To show media in this cmd you need to set ALIVE_PIC with media link, get this by replying the media by .tgm",
